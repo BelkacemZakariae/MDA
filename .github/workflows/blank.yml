@@ -3,7 +3,7 @@ name: Run Notebook Daily
 on:
   schedule:
     # Schedule: 8:00 AM GMT+1 (Europe/Paris)
-    - cron: '26 13 * * *'
+    - cron: '29 13 * * *'
 
 jobs:
   execute-notebook:
